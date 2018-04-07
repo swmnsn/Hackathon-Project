@@ -9,7 +9,7 @@ https://swmnsn.github.io/Hackathon-Project/
 An interactive Python script using the Turtle library
 
 # Objective
-To provide young children a simple introduction to coding
+To provide young children (especially girls!) a simple/approachable introduction to coding
 
 # Sources
-skulpt.org (for python visualization)
+skulpt.org (skulpt provided the ability to run Python on the client side)
