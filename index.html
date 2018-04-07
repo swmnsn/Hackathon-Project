@@ -12,32 +12,57 @@
 
 <body>
 
-	<h1>FUN WITH TURTLES (AND PYTHON)</h1>
+	<h1 class="regular-text">FUN WITH TURTLES (AND PYTHON)</h1>
+
+  <h3 class = "reguler-text">First: Name your turtle! (We named ours Shelly!)</h3>
+  <p class="code">shelly = turtle.Turtle() <br/>
+shelly.shape("turtle")</p>
+
+  <h3 class="regular-text">Then, decide on two colors: one for the drawing, and one for you turtle</h3>
+  <p class= "code">star.color('pink', 'blue')</p>
+
+  <h3 class="regular-text">Then, teach your new friend how to move! <br/> Here are some things it can do:</h3>
+  <h3 class="regular-text">Forward(distance): Moves the turtle forward for a certain distance <br/> (100 is a big distance and 10 is really small!)</h3>
+  <p class="code">shelly.forward(100)</p>
 
 
-<h3>You can make your own turtle or try ours!</h3> 
+  <h3 class="regular-text">Left(angle): Turn your friend to the left</h3>
+  <p class="code">shelly.left(100)</p>
+
+  <h3 class="regular-text">Right(angle): Turn your friend to the right</h3>
+  <p class="code">shelly.right(100)</p>
+
+  <img src="angles.jpg" alt="angles"></img>
+  <h3>Don't lead your friend astray - turn him the right way!</h3>
+
+<h3 class = "regular-text">You can make your own turtle or try ours!</h3> 
+
 <form> 
 <textarea id="yourcode" cols="40" rows="10">import turtle
 
-star = turtle.Turtle()
-star.shape("turtle")
-
-for i in range(100):
-    star.forward(100)
-    star.right(144)
+shelly = turtle.Turtle()
+shelly.shape("turtle")
+shelly.color('pink', 'green')
+shelly.forward(100)
+shelly.right(144)
+shelly.forward(100)
+shelly.right(144)
+shelly.forward(100)
+shelly.right(144)
+shelly.forward(100)
+shelly.right(144)
+shelly.forward(100)
+shelly.right(144)
     
 turtle.up()
 
  
-</textarea><br /> 
+</textarea><br/> 
 <button type="button" onclick="runit()">Run</button> 
 </form> 
 <pre id="output" ></pre> 
-<!-- If you want turtle graphics include a canvas -->
 <div id="mycanvas"></div> 
 
-
-	
 
 
 </body>
